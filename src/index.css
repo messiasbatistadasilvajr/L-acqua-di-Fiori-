@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #C5A059;
+    --gold-light: #EBD399;
+    --gold-dark: #917032;
+    --black-noir: #111111;
+    --black-surface: #1A1A1A;
+    --beige-canvas: #FAF8F5;
+    --beige-card: #F4EFE6;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF8F5;
+    color: #1A1A1A;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Gold Gradient & Scrollbar styling */
+.gold-shimmer {
+  background: linear-gradient(135deg, #E6CA85 0%, #C5A059 50%, #9E7D3B 100%);
+}
+
+.gold-border {
+  border-color: rgba(197, 160, 89, 0.35);
+}
+
+.gold-border-focus:focus {
+  border-color: #C5A059;
+  outline: none;
+  box-shadow: 0 0 0 1px #C5A059;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1ECE1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4C3A3;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}

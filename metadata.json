@@ -1,0 +1,6 @@
+{
+  "name": "L'acqua di Fiori — Ecossistema Digital & Vendas WhatsApp",
+  "description": "Plataforma de alta perfumaria com catálogo digital interativo, consultoria olfativa por IA, fechamento de pedidos com estoque multi-filial e despacho para WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
